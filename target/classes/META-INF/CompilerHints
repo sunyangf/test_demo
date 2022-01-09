@@ -1,0 +1,16 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,com/sun/yang/performance/JMHTest.testForEach
+inline,com/sun/yang/performance/NumsSum.foreach
+inline,com/sun/yang/performance/RedissionDisLockTest.destroy
+inline,com/sun/yang/performance/RedissionDisLockTest.init
+inline,com/sun/yang/performance/RedissionDisLockTest.testLockAndUnlockIncrement
+inline,com/sun/yang/performance/iuapDisLockTest.close
+inline,com/sun/yang/performance/iuapDisLockTest.init
+inline,com/sun/yang/performance/iuapDisLockTest.testLockAndUnlockIncrement
+inline,com/sun/yang/performance/iuapDisLockTest.testLockAndUnlockRandom
+inline,com/sun/yang/performance/iuapZkLockTest.init
+inline,com/sun/yang/performance/iuapZkLockTest.testLockAndUnlockRandom
