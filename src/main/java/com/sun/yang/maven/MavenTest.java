@@ -1,13 +1,6 @@
 package com.sun.yang.maven;
 
-import org.apache.maven.artifact.Artifact;
-import org.apache.maven.artifact.DefaultArtifact;
-import org.apache.maven.artifact.handler.DefaultArtifactHandler;
-import org.apache.maven.project.DefaultProjectBuildingRequest;
-import org.apache.maven.project.ProjectBuildingRequest;
-import org.eclipse.aether.impl.ArtifactResolver;
-import org.eclipse.aether.internal.impl.DefaultArtifactResolver;
-import org.eclipse.aether.resolution.ArtifactResult;
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

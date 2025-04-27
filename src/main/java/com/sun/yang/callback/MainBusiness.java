@@ -1,20 +1,16 @@
 package com.sun.yang.callback;
 
-/**
- * @ClassName MainBusiness
- * @Description TODO
- * @Author Administrator
- * @Date 2021/11/29
- **/
-public class MainBusiness {
-    private CallbackService callback;
+import com.sun.yang.callback.service.CallBackService;
 
-    public void execute(CallbackService callback) {
-        this.callback = callback;
+public class MainBusiness {
+    private CallBackService service;
+
+    public void doMainBusiness(CallBackService service){
+        this.service = service;
         callBack();
     }
-
     public void callBack() {
-        callback.callBackFunc();
+        service.execute();
     }
+
 }
